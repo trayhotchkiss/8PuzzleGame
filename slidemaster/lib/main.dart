@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'widgets/puzzlegrid.dart';
 
 void main() => runApp(SlideMasterApp());
 
@@ -17,22 +18,6 @@ class SlideMasterApp extends StatelessWidget {
         ),
         body: PuzzleGrid(),
       ),
-    );
-  }
-}
-
-class PuzzleGrid extends StatefulWidget {
-  @override
-  _PuzzleGridState createState() => _PuzzleGridState();
-}
-
-class _PuzzleGridState extends State<PuzzleGrid> {
-  // This will later include the grid logic
-  @override
-  Widget build(BuildContext context) {
-    return Center(
-      // Placeholder for the puzzle grid
-      child: Text('Puzzle Grid Coming Soon'),
     );
   }
 }
